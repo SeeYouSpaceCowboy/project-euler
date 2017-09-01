@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title><%= current_page.data.title || "Mohammed Chisti's Project Euler Solutions" %></title>
+    <%= stylesheet_link_tag "site" %>
+    <%= javascript_include_tag "site" %>
+  </head>
+  <body>
+    <h1><%= current_page.data.title %></h1>
+    <p><a href=''>Prev</a> | <a href=''>Next</a></p>
+
+    <%= yield %>
+    </br></br></br>
+
+    <p>
+      To see the answer to this <%= link_to("question", "https://projecteuler.net/problem=#{ current_page.data.question_num }", target: "_blank")%> in your Chrome browser
+      console, press <strong>⌘</strong> + <strong>Option</strong> +
+      <strong>J</strong> on a Mac or press <strong>Ctrl</strong> + <strong>Shift</strong> + <strong>J</strong>
+      on Windows.
+    </p>
+
+    <p>
+      Alternatively you can right click on your Chrome browser, click
+      <strong>inspect</strong>, then go to the <strong>console</strong> tab.
+    </p>
+  </body>
+</html>
