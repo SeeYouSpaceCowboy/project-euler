@@ -12,7 +12,10 @@
   </head>
   <body>
     <h1><%= current_page.data.title %></h1>
-    <p><a href=''>Prev</a> | <a href=''>Next</a></p>
+    <p>
+      <%= link_to("Prev", "#{ current_page.data.question_num-1 }.html")%> |
+      <%= link_to("Next", "#{ current_page.data.question_num+1 }.html")%>
+    </p>
 
     <%= yield %>
     </br></br></br>
