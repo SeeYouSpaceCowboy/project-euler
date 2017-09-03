@@ -13,12 +13,15 @@
   <body>
     <h1><%= current_page.data.title %></h1>
     <p>
-      <%= link_to("Prev", "#{ current_page.data.question_num-1 }.html")%> |
-      <%= link_to("Next", "#{ current_page.data.question_num+1 }.html")%>
+      <%= link_to("Prev", "problem-#{ current_page.data.question_num-1 }.html")%> |
+      <%= link_to("Next", "problem-#{ current_page.data.question_num+1 }.html")%>
     </p>
 
+    </br>
     <%= yield %>
-    </br></br></br>
+
+    <div class='break-line'></div>
+    </br></br>
 
     <p>
       To see the answer to this <%= link_to("question", "https://projecteuler.net/problem=#{ current_page.data.question_num }", target: "_blank")%> in your Chrome browser
