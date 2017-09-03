@@ -1,3 +1,11 @@
+# Activate and deploy to Github Pages
+
+activate :deploy do |deploy|
+  deploy.build_before = true # runs build before deploying
+  deploy.deploy_method = :git
+  deploy.branch = 'master'
+end
+
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
