@@ -11,14 +11,14 @@
 
 <p align="center">
   <img
-    src="https://user-images.githubusercontent.com/7621982/29982231-e6375cda-8f1e-11e7-85d0-5d3bba67edfd.png"
+    src="https://user-images.githubusercontent.com/7621982/30005981-965a51d2-90bc-11e7-98ef-2948db74d672.png"
     alt="Project Euler Screenshot"
     width="700" />
     </br>
     Solutions to problems presented in <a href='https://projecteuler.net' target="_blank">Project Euler</a>.
 </p>
 
-## Getting Started with Check In
+## Getting Started with Project Euler
 These instructions will get you a copy of the project up and running on your local machine for development.
 
 ### Prerequisites
@@ -41,4 +41,4 @@ Open terminal and run the following lines of code to clone and run this project.
 * [Middleman]() - Static Site Generator based of Rails.
 
 ## Contributors
-Check In was built by [Mohammed Chisti](http://mohammedchisti.com).
+Project Euler was built by [Mohammed Chisti](http://mohammedchisti.com).
