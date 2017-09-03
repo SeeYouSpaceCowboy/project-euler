@@ -14,7 +14,7 @@
     src="https://user-images.githubusercontent.com/7621982/30005981-965a51d2-90bc-11e7-98ef-2948db74d672.png"
     alt="Project Euler Screenshot"
     width="700" />
-    </br>
+    <br>
     Solutions to problems presented in <a href='https://projecteuler.net' target="_blank">Project Euler</a>.
 </p>
 
